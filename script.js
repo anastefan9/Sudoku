@@ -147,7 +147,7 @@ function createNumber() {
 
 function getRandomNumber(min, max) {
 	return Math.floor(Math.random() * (max - min + 1)) + min;
-} //iti returneaza un nr random intre min si max, inclusiv
+} 
 
 //CREATE DEFAULT NUMBERS
 
