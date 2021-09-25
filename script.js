@@ -91,7 +91,7 @@ var cell;
 function getCellIdAndModifyCell(val) {
 	setAfterClickColor(cell);
 	cell = document.getElementById(val);
-	if (cell.innerHTML != "") {
+	if (cell.innerHTML != "" && cell.style.backgroundColor != "rgb(204, 242, 255)") {
 		cell.innerHTML = "";
 	}
 	setOnClickColor(cell);
